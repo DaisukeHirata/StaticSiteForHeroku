@@ -26,20 +26,24 @@ Add or update files in `/public`.
 1. まずHerokuでアプリを作る。
 
 2. リポジトリをクローンする。
-$ git clone git@heroku.com:webgl-video-imageprocessing.git -o heroku
+
+    $ git clone git@heroku.com:webgl-video-imageprocessing.git -o heroku
 
 3. 別のディレクトリでひな形サイトを取得する。
-$ git clone git@github.com:DaisukeHirata/StaticSiteForHeroku.git
+    
+    $ git clone git@github.com:DaisukeHirata/StaticSiteForHeroku.git
 
 4. 3のファイルを２のリポジトリにコピーする。3は消して構わない。
 
 5. 開発物（htmlとかjsとか）をpublic以下に加える。git commit する。
 
 6. push先をherokuに。
-$ git push -u heroku master
+
+    $ git push -u heroku master
 
 7. ブラウザでopen 
-$ heroku open
+
+    $ heroku open
 
 ## Notes
 
